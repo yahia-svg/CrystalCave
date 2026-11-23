@@ -1,0 +1,25 @@
+:root{
+    --p: 1em;
+}
+header {
+    background-color: rgba(128, 0, 128, 0.838);
+    color: white;
+    margin: 1em;
+    border:  2px solid white;
+
+    padding: var(--p) var(--p) var(--p);
+}
+
+.title {
+    color: cornflowerblue;
+}
+body{
+    min-height: 100vh;
+    background-image: 
+    radial-gradient(2px 2px at 20px 30px, white, transparent),
+    radial-gradient(1.5px 1.5px at 90px 70px, white, transparent),
+    radial-gradient(2px 2px at 140px 120px, white, transparent),
+    linear-gradient(45deg, rgb(0, 20, 56), rgb(82, 135, 234));
+    background-size: 150px 150px, 150px 150px, 150px 150px, 100% 100%;
+    background-repeat: repeat, repeat, repeat, no-repeat; 
+}
